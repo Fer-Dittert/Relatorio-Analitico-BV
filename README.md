@@ -44,14 +44,11 @@ DAX → Medidas para cálculos e análises
 
 📂 Estrutura do Projeto
 /BanVic-Analytics
-│── /data               # Dados brutos tratados
-
+│── /data               # Dados brutos
 │── /data/DadosTratados # Dados tratados
 │── /sql                # Scripts de criação e algumas consultas
-
 |── /docs               # Relatório Analítico e Manual dos Dados
 │── /dashboard          # Arquivo .pbix do Power BI
-
 │── /imagens            # prints do dashboard interativo e de consultas no banco
 │── README.md           # Documentação do projeto
 
@@ -200,6 +197,7 @@ PF predominam, presença significativa de idosos (60+).
 
 
 &nbsp;
+
 
 
 
