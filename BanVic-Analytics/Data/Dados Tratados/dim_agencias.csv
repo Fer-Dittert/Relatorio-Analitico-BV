@@ -1,0 +1,11 @@
+cod_agencia,endereco,cidade,uf,data_abertura,tipo_agencia,nome
+1,Av. Paulista, 1436 - Cerqueira César, São Paulo - SP, 01310-916,São Paulo,SP,2010-01-01,Física,Agência Matriz
+2,Praça Sílvio Romero, 158 - Tatuapé, São Paulo - SP, 03323-000,São Paulo,SP,2010-06-14,Física,Agência Tatuapé
+3,Av. Francisco Glicério, 895 - Vila Lidia, Campinas - SP, 13012-000,Campinas,SP,2012-03-04,Física,Agência Campinas
+4,Av. Antônio Carlos Costa, 1000 - Bela Vista, Osasco - SP, 06053-014,Osasco,SP,2013-11-06,Física,Agência Osasco
+5,Av. Bento Gonçalves, 1924 - Partenon, Porto Alegre - RS, 90650-000,Porto Alegre,RS,2013-12-01,Física,Agência Porto Alegre
+6,R. Sen. Dantas, 15 - Centro, Rio de Janeiro - RJ, 20031-202,Rio de Janeiro,RJ,2015-04-01,Física,Agência Rio de Janeiro
+7,Av. Paulista, 1436 - Cerqueira César, São Paulo - SP, 01310-916,São Paulo,SP,2015-08-01,Digital,Agência Digital
+8,Av. Brg. Faria Lima, 2491 - Jardim Paulistano, São Paulo - SP, 01452-000,São Paulo,SP,2018-01-09,Física,Agência Jardins
+9,Av. Jorn. Rubéns de Arruda Ramos, 1280 - Centro, Florianópolis - SC, 88015-700,Florianópolis,SC,2019-10-09,Física,Agência Florianópolis
+10,Av. Conselheiro Aguiar, 4432 - Boa Viagem, Recife - PE, 51021-020,Recife,PE,2021-10-09,Física,Agência Recife
