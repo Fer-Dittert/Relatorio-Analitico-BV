@@ -43,6 +43,7 @@ DAX → Medidas para cálculos e análises
 
 
 📂 Estrutura do Projeto
+
 /BanVic-Analytics
 │── /data               # Dados brutos
 │── /data/DadosTratados # Dados tratados
@@ -197,6 +198,7 @@ PF predominam, presença significativa de idosos (60+).
 
 
 &nbsp;
+
 
 
 
