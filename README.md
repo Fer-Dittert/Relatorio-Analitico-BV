@@ -1,4 +1,4 @@
-📊 BanVic – Análise de Transações Bancárias
+📊 BV – Criação de DW e análises
 
 Este projeto tem como objetivo realizar a análise de dados do Banco BanVic, respondendo as principais perguntas de negócio e construindo um dashboard interativo no Power BI com os KPIs mais relevantes.
 
@@ -200,6 +200,7 @@ PF predominam, presença significativa de idosos (60+).
 
 
 &nbsp;
+
 
 
 
