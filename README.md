@@ -85,7 +85,7 @@ DAX → Medidas para cálculos e análises
 
 Clone este repositório:
 
-git clone https://github.com/seuusuario/BanVic-Analytics.git
+git clone [https://github.com/seuusuario/BanVic-Analytics.git](https://github.com/Fer-Dittert/Relatorio-Analitico-BV.git)
 
 
 
@@ -200,6 +200,7 @@ PF predominam, presença significativa de idosos (60+).
 
 
 &nbsp;
+
 
 
 
