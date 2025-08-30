@@ -73,9 +73,9 @@ DAX → Medidas para cálculos e análises
 
 <img src="BanVic-Analytics/Imagens/banvic dashboard 1.png" alt="Dashboard" width="600"/>
 
-<img src="Imagens/banvic dashboard 2.png" alt="Dashboard" width="600"/>
+<img src="BanVic-Analytics/Imagens/banvic dashboard 1.png" alt="Dashboard" width="600"/>
 
-<img src="Imagens/banvic dashboard 3.png" alt="Dashboard" width="600"/>
+<img src="BanVic-Analytics/Imagens/banvic dashboard 1.png" alt="Dashboard" width="600"/>
 
 
 
@@ -200,6 +200,7 @@ PF predominam, presença significativa de idosos (60+).
 
 
 &nbsp;
+
 
 
 
