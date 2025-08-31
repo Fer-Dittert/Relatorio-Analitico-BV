@@ -79,7 +79,7 @@ Abra o arquivo BanVic_Dashboard.pbix no Power BI Desktop.
 Explore os KPIs e análises interativas.
 
 
-##📌 Transformações Feitas
+## 📌 Transformações Feitas
 
 Tratamento para popular a tabela de cotação do dólar, algumas datas vieram com hora e milissegundos, e algumas cotações estavam com mais casas decimais que outras.
 
@@ -103,7 +103,7 @@ Modificação de alguns nomes de linhas para melhorar o visual (BigQuery).
 
 
 
-##📌 Resultados Rápidos
+## 📌 Resultados Rápidos
 
 (para análise completa verificar Relatório na pasta /docs)
 
@@ -136,5 +136,6 @@ Contas digitais movimentam mais transações que contas tradicionais.
 PF predominam.
 
 Presença significativa de idosos (60+).
+
 
 
