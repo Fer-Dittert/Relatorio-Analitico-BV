@@ -32,14 +32,17 @@ Este projeto tem como objetivo criar um DW e realizar a análise de dados do Ban
 ## 📂 Estrutura do Projeto
 
 
+<pre>
 /BanVic-Analytics
-│── /data # Dados brutos
+│── /data               # Dados brutos
 │── /data/DadosTratados # Dados tratados
-│── /sql # Scripts de criação e algumas consultas
-|── /docs # Relatório Analítico e Manual dos Dados
-│── /dashboard # Arquivo .pbix do Power BI
-│── /imagens # prints do dashboard interativo e de consultas no banco
-│── README.md # Documentação do projeto
+│── /sql                # Scripts de criação e algumas consultas
+│── /docs               # Relatório Analítico e Manual dos Dados
+│── /dashboard          # Arquivo .pbix do Power BI
+│── /imagens            # prints do dashboard interativo e de consultas no banco
+│── README.md           # Documentação do projeto
+</pre>
+
 
 
 
@@ -136,6 +139,7 @@ Contas digitais movimentam mais transações que contas tradicionais.
 PF predominam.
 
 Presença significativa de idosos (60+).
+
 
 
 
