@@ -6,10 +6,10 @@ Este projeto tem como objetivo criar um DW e realizar a análise de dados do Ban
 
 ## 📌 Objetivos do Projeto
 
-- Criar um Data Warehouse com tabelas fato e dimensão e desenvolvimento da dim_data
+- Criar um Data Warehouse com tabelas fato e dimensão incluindo desenvolvimento da dim_data
 - Responder às principais dúvidas de negócio, como:  
   - Desempenho por agência.  
-  - Verificar se existe sazonalidade.  
+  - Desempenho por trimestre. 
   - Valor médio das transações.  
   - Total de transações por tipo de conta.
 
@@ -139,6 +139,7 @@ Contas digitais movimentam mais transações que contas tradicionais.
 PF predominam.
 
 Presença significativa de idosos (60+).
+
 
 
 
