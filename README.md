@@ -1,4 +1,4 @@
-# 📊 BV – Criação de DW e análises
+# 📊 BANCO BV – Criação de DW e análise de dados
 
 Este projeto tem como objetivo criar um DW e realizar a análise de dados do Banco BanVic, respondendo as principais perguntas de negócio e construindo um dashboard interativo no Power BI com os KPIs mais relevantes.
 
@@ -143,6 +143,7 @@ Contas digitais movimentam mais transações que contas tradicionais.
 PF predominam.
 
 Presença significativa de idosos (60+).
+
 
 
 
