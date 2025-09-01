@@ -6,12 +6,13 @@ Este projeto tem como objetivo criar um DW e realizar a análise de dados do Ban
 
 ## 📌 Objetivos do Projeto
 
-- Criar um Data Warehouse com tabelas fato e dimensão incluindo desenvolvimento da dim_data
+- Criar um Data Warehouse com tabelas fato e dimensão, incluindo o desenvolvimento da dim_data
 - Responder às principais dúvidas de negócio, como:  
   - Desempenho por agência.  
-  - Desempenho por trimestre. 
+  - Desempenho por trimestre.
+  - Dias da semana com mais e menos transações 
   - Valor médio das transações.  
-  - Total de transações por tipo de conta.
+  - Desempenho nos últimos 6 meses
 
 - Desenvolver um dashboard interativo com filtros por:  
   - Data  
@@ -52,9 +53,10 @@ Este projeto tem como objetivo criar um DW e realizar a análise de dados do Ban
 ## 📊 Principais KPIs
 
 - ✅ Total de transações  
-- ✅ Volume de transações por tipo (TED, DOC, Pix etc.)  
-- ✅ Média de valor das transações (mensal/par x ímpar)  
-- ✅ Transações por agência  
+- ✅ Volume de transações por agência
+- ✅ Média de valor das transações por mês e por trimestre  
+- ✅ Ticket médio por transação
+
 
 ---
 
@@ -75,7 +77,7 @@ Clone este repositório:
 
 ```
 
-Configure o banco de dados SQL Server com os scripts na pasta /sql e insira os dados tratados.
+Configure o banco de dados SQL Server com o script de criação na pasta /sql e insira os dados tratados.
 
 Abra o arquivo BanVic_Dashboard.pbix no Power BI Desktop.
 
@@ -84,21 +86,19 @@ Explore os KPIs e análises interativas.
 
 ## 📌 Transformações Feitas
 
-Tratamento para popular a tabela de cotação do dólar, algumas datas vieram com hora e milissegundos, e algumas cotações estavam com mais casas decimais que outras.
+Tratamento da tabela de colunas de data, para remover hora e milisegundos presentes em algumas datas especificas
+
+Tratamento de velores monetários e suas casas decimais 
 
 Modificação de todas as tabelas para utf8, reconhecimento de aspas como delimitador dos endereços e conversão de datatypes na hora de popular as tabelas.
 
-Tabela transação precisou mudar o formato da data (feito direto no csv removendo UTC com localizador global e removendo os milissegundos).
+Tabela transação precisou remover texto da data.
 
 Dezembro de 2022 reconhecido como outlier e tratado com remoção direta.
 
 Tabela contas estava com o cod_cliente errado.
 
-Na tabela de propostas, correção do formato (casa decimal) de todos os valores.
-
-Tratamento do cliente que possui código 528 mas não existe na tabela de clientes. Foi removido, já que não temos seus dados completos.
-
-Alteradas as colunas de data/hora para data no BigQuery.
+Tratamento do cliente que possui código 528 mas não existe na tabela de clientes. Foi removido, já que não temos seus dados registrados mais.
 
 Alterado o formato dos valores monetários e taxa de juros no BigQuery.
 
@@ -118,11 +118,13 @@ Menos frequentes, mas de alto impacto: TED e DOC recebidos.
 
 Volume alto não significa impacto financeiro alto. Transações raras podem representar grandes movimentações de recursos.
 
+
 👥 Perfil dos Clientes
 
 Idades entre 18 e 83 anos.
 
 Concentração em 34 anos e 70 anos.
+
 
 🏦 Distribuição por Agência
 
@@ -130,15 +132,18 @@ Agência Digital concentra o maior volume de transações.
 
 Recife e Florianópolis têm menor movimento.
 
+
 💳 Tipos de Contas
 
 Contas digitais movimentam mais transações que contas tradicionais.
+
 
 👤 Concentração de Clientes
 
 PF predominam.
 
 Presença significativa de idosos (60+).
+
 
 
 
