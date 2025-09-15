@@ -63,8 +63,8 @@ Este projeto tem como objetivo criar um DW e realizar a análise de dados do Ban
 ## 📸 Dashboard (Power BI)
 
 <img src="BanVic-Analytics/Imagens/banvic dashboard 1.png" alt="Dashboard" width="600"/>  
-<img src="BanVic-Analytics/Imagens/banvic dashboard 2.png" alt="Dashboard" width="600"/>  
-<img src="BanVic-Analytics/Imagens/banvic dashboard 3.png" alt="Dashboard" width="600"/>  
+ 
+
 
 ---
 
@@ -143,6 +143,7 @@ Contas digitais movimentam mais transações que contas tradicionais.
 PF predominam.
 
 Presença significativa de idosos (60+).
+
 
 
 
